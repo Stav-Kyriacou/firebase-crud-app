@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <div class="toolbar-container">
+        <div class="toolbar-content">
+            <mat-icon>local_fire_department</mat-icon>
+            <span>Firebase CRUD App</span>
+        </div>
+        <div class="toolbar-content">
+            <button mat-raised-button color="accent" (click)="newOrg()">Add Org</button>
+        </div>
+    </div>
+</mat-toolbar>
+<div class="content-container">
+    <h1>Organisations - Length: {{organisations.length}}</h1>
+    <div class="organisation-container">
+        <app-organisation *ngFor="let org of organisations" [organisation]="org"></app-organisation>
+    </div>
+</div>

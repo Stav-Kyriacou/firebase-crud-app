@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "fir-project-test-ba374"
+  },
+  "targets": {
+    "fir-project-test-ba374": {
+      "hosting": {
+        "firebase-crud-app": [
+          "fir-project-test-ba374"
+        ]
+      }
+    }
   }
 }

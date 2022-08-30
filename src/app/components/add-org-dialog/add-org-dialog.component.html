@@ -1,0 +1,14 @@
+<mat-form-field>
+    <mat-label>Name</mat-label>
+    <input matInput cdkFocusInitial [(ngModel)]="data.org.name"/>
+</mat-form-field>
+
+<mat-form-field>
+    <mat-label>Description</mat-label>
+    <textarea matInput [(ngModel)]="data.org.description"></textarea>
+</mat-form-field>
+
+<div mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="data">OK</button>
+    <button mat-button (click)="cancel()">Cancel</button>
+</div>

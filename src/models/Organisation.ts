@@ -1,6 +1,6 @@
 export interface Organisation {
-    id: string;
-    name: string;
-    description: string;
-    dateCreated: Date;
+    id?: string;
+    name?: string;
+    description?: string;
+    dateCreated?: Date;
 }

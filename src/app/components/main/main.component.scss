@@ -1,0 +1,26 @@
+mat-toolbar {
+    margin-bottom: 20px;
+}
+
+mat-toolbar>span {
+    margin-left: 10px;
+}
+
+.content-container {
+    max-width: 1400px;
+    margin: 10px;
+}
+
+.organisation-container {
+    display: flex;
+    margin: 10px;
+}
+.toolbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.toolbar-content {
+    display: flex;
+}
